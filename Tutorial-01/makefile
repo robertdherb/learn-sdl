@@ -3,4 +3,4 @@ CC=cc
 CFLAGS=`sdl2-config --cflags` `sdl2-config --libs`
 
 all:
-	$(CC) main.c game.h $(CFLAGS)
+	$(CC) main.c $(CFLAGS)
